@@ -4,10 +4,10 @@ import { CoffeeListComponent } from './coffee-list/coffee-list.component';
 
 
 @NgModule({
+  declarations: [CoffeeListComponent],
   imports: [
     CommonModule
   ],
-  declarations: [CoffeeListComponent],
   exports: [CoffeeListComponent]
 })
 export class CoffeeModule { }
